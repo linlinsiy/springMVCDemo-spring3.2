@@ -1,4 +1,4 @@
-package com.gaussic.model;
+package com.gaussic.jpamodel;
 
 import javax.persistence.*;
 import java.util.Collection;

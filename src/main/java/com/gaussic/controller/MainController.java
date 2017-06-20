@@ -1,7 +1,7 @@
 package com.gaussic.controller;
 
-import com.gaussic.model.UserEntity;
-import com.gaussic.repository.UserRepository;
+import com.gaussic.jpamodel.UserEntity;
+import com.gaussic.jparepository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

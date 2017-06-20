@@ -29,7 +29,7 @@
     </bean>
 
     <!-- 表示JPA Repository所在的包 -->
-    <jpa:repositories base-package="com.gaussic.repository"/>
+    <jpa:repositories base-package="com.gaussic.jparepository"/>
 
     <!-- 链接到persistence.xml -->
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalEntityManagerFactoryBean">
