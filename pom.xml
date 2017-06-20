@@ -11,7 +11,7 @@
     <properties>
         <spring.version>3.2.1.RELEASE</spring.version>
         <spring-data.version>1.2.0.RELEASE</spring-data.version>
-        <neo4j.cypher.dsl.version>1.7</neo4j.cypher.dsl.version>
+        <neo4j.cypher.dsl.version>1.9.M04</neo4j.cypher.dsl.version>
         <neo4j.kernel.version>1.9</neo4j.kernel.version>
         <spring.data.neo4j.version>2.2.0.RELEASE</spring.data.neo4j.version>
         <fasterxml.jackson>2.7.4</fasterxml.jackson>
@@ -151,6 +151,16 @@
             <groupId>org.neo4j</groupId>
             <artifactId>neo4j-graphdb-api</artifactId>
             <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>1.1.0.Final</version>
         </dependency>
     </dependencies>
 
