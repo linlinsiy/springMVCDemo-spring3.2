@@ -4,6 +4,7 @@ import com.gaussic.jpamodel.BlogEntity;
 import com.gaussic.jpamodel.UserEntity;
 import com.gaussic.jparepository.BlogRepository;
 import com.gaussic.jparepository.UserRepository;
+import com.gaussic.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -19,6 +20,9 @@ import java.util.List;
  */
 @Controller
 public class BlogController {
+
+/*    @Autowired
+    ProductRepository productRepository;*/
 
     @Autowired
     BlogRepository blogRepository;
